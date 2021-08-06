@@ -6,7 +6,7 @@ public abstract class Pension_jubilado {
     private String Nombre;
     private float Salario;
     private int Aportedeanio;
-    private String nombre;
+    
     
     public Pension_jubilado() {
     }
@@ -69,7 +69,7 @@ public abstract class Pension_jubilado {
     }
     @Override
      public String toString() {
-        return this.nombre+" "+getTipoPension_jubilacion()+" Pension: $"+calcularPension();
+        return this.Nombre+" "+getTipoPension_jubilacion()+" Pension: $"+calcularPension();
     }
     public abstract String getTipoPension_jubilacion();
     public abstract float calcularPension();
