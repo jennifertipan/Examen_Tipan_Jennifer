@@ -17,7 +17,8 @@ public class Test_Seguro {
         jubilados.add(j2);
         jubilados.add(j3);
         jubilados.add(j4);
-        System.out.println("Pensión de todos los jubilados:");
+        System.out.println(" Jubilación por vejez, patronal, discapacidad ");
+        System.out.println("Pension de Jubilación a recibir es :");
         jubilados.forEach((jubi) -> {
             System.out.println("-"+jubi.toString());
         });
